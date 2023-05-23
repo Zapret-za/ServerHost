@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var preloader = document.getElementsByClassName("preloader");
-  if (preloader.length > 0) {
-    preloader[0].style.display = "flex";
+  var preloader = document.querySelector(".preloader");
+  if (preloader) {
+    preloader.style.display = "flex";
   }
 
   var images = document.getElementsByTagName("img");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     filesLoaded++;
 
     if (filesLoaded === totalFiles) {
-      preloader[0].style.display = "none";
+      preloader.style.display = "none";
       document.body.style.visibility = "visible";
     }
   };
@@ -25,6 +25,16 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   for (var j = 0; j < svgs.length; j++) {
-    svgs[j].addEventListener("load", onFileLoad);
+    var svg = svgs[j];
+    var svgUrl = svg.getAttribute("data-src");
+
+    if (svgUrl) {
+      var xhr = new XMLHttpRequest();
+      xhr.onload = onFileLoad;
+      xhr.open("GET", svgUrl, true);
+      xhr.send();
+    } else {
+      onFileLoad();
+    }
   }
 });
