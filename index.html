@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerHost</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" >
+</head>
+<body>
+
+<div class="preloader">
+    <div class="loader"></div>
+</div>
+
+<div class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="logo">
+                <a class="logo__link" href="#" onclick="closeNav()">
+                    <img src="images/logo.svg" alt="logo">
+                    <span>ServerHost</span>
+                </a>
+            </div>
+            <div class="logo__mobmenu">
+                <a class="logo__link" href="#" onclick="closeNav()">
+                    <img src="images/logo_w.svg" alt="logo">
+                    <span>ServerHost</span>
+                </a>
+            </div>
+            <div class="menu">
+                <div class="menu__img">
+                    <img src="images/img_mob.png" alt="img">
+                </div>
+                <div class="menu__nav">
+                    <ul>
+                        <li><a href="#" class="active" onclick="closeNav()">services</a></li>
+                        <li><a href="development.html" onclick="closeNav()">development</a></li>
+                        <li><a href="hardware.html" onclick="closeNav()">hardware</a></li>
+                        <li><a href="#contact" onclick="closeNav()">contacts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__btn">
+                    <a href="#" class="btn__ask" onclick="closeNav()">Ask question</a>
+                </div>
+            </div>
+            <div class="burger">
+                <img src="images/burger.svg" alt="burger">
+            </div>
+            <div class="btn-close">
+                <img src="images/burger-close.svg" alt="close">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home">
+    <div class="container">
+        <div class="home__body">
+            <div class="home__body-text">
+                <h1 class="home__body-h1">Simplify your life with our server solutions</h1>
+                <div  class="home__body-p">
+                    <p>Say goodbye to complex and time-consuming server management with our powerful server solutions.</p>
+                </div>
+                <a href="#" class="btn__write home__body-btn">
+                    <span class="icon"></span>
+                    write to us
+                </a>
+            </div>
+            <div class="home__body-img">
+                <img src="images/img_1.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="container">
+        <div class="services__body">
+            <div class="tabs">
+                <div class="tab-header">
+                    <button class="tab-button active" data-tab="tab1">Server Installation</button>
+                    <button class="tab-button" data-tab="tab2">Maintenance</button>
+                    <button class="tab-button" data-tab="tab3">Local Network</button>
+                    <button class="tab-button" data-tab="tab4">Data Management</button>
+                </div>
+                <div class="tab-content">
+                    <div id="tab1" class="tab-item active">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Revolutionize Your Business With Our Installations</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab-item">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Maintenance</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab-item">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Local Network</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab-item">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Data Management</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordions">
+                <div class="accordion__panel">
+                    <button class="accordion"> Server Installation</button>
+                    <div class="panel">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Revolutionize Your Business With Our Installations</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="accordion">Maintenance</button>
+                    <div class="panel">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Revolutionize Your Business With Our Installations</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="accordion">Local Network</button>
+                    <div class="panel">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Revolutionize Your Business With Our Installations</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="accordion">Data Management</button>
+                    <div class="panel">
+                        <div class="tab-item__img">
+                            <img src="images/img_2.png" alt="img">
+                        </div>
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Revolutionize Your Business With Our Installations</h2>
+                            <div class="tab-item__p">
+                                <p>Our team of experienced technicians can install and configure servers to meet your specific requirements, whether you need a simple file server or a complex server farm. We can also provide ongoing support to ensure that your servers are always up and running smoothly.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="benefits">
+    <div class="container">
+        <div class="benefits__body">
+            <h2 class="benefits__body-h2">Our Benefits</h2>
+            <div class="benefits__body-cards">
+                <div class="benefits__body-card">
+                    <div class="benefits__body-card__img">
+                        <img src="images/icon_1.svg" alt="icon">
+                    </div>
+                    <h3 class="benefits__body-card__h3">Professional Expertise</h3>
+                    <p class="benefits__body-card-p">Our team of professionals has extensive experience in server installation and configuration, ensuring reliable and efficient performance.</p>
+                </div>
+                <div class="benefits__body-card">
+                    <div class="benefits__body-card__img">
+                        <img src="images/icon_2.svg" alt="icon">
+                    </div>
+                    <h3 class="benefits__body-card__h3">Tailored Solutions</h3>
+                    <p class="benefits__body-card-p">We offer customized solutions to fit the unique needs of each client, ensuring maximum efficiency and productivity.</p>
+                </div>
+                <div class="benefits__body-card">
+                    <div class="benefits__body-card__img">
+                        <img src="images/icon_3.svg" alt="icon">
+                    </div>
+                    <h3 class="benefits__body-card__h3">Competitive Pricing</h3>
+                    <p class="benefits__body-card-p">We offer cost-effective solutions without compromising on quality, ensuring the best value for our clients.</p>
+                </div>
+                <div class="benefits__body-card">
+                    <div class="benefits__body-card__img">
+                        <img src="images/icon_4.svg" alt="icon">
+                    </div>
+                    <h3 class="benefits__body-card__h3">Timely Support</h3>
+                    <p class="benefits__body-card-p">Our responsive customer support team is available to provide timely assistance and ensure smooth operations of your server infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="do">
+    <div class="container">
+        <h2 class="do__h2">We Do</h2>
+        <div class="do__body">
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab-header1">
+                        <button class="tab_button active" data-tab="tb1"><span class="icon-1" ></span>Installation <br> & Maintenance</button>
+                        <button class="tab_button" data-tab="tb2"><span class="icon-2" ></span>Full stack <br> Development</button>
+                        <button class="tab_button" data-tab="tb3"><span class="icon-3"></span>Security <br> Consulting</button>
+                    </div>
+                    <div class="tab-header2">
+                        <button class="tab_button" data-tab="tb4"><span class="icon-4"></span>Network <br> Optimization</button>
+                        <button class="tab_button" data-tab="tb5"><span class="icon-5"></span>Data <br> Management</button>
+                        <button class="tab_button" data-tab="tb6"><span class="icon-6"></span>Backup Recovery <br> & Protection</button>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tb1" class="tab_item active">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Installation & Maintenance</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tb2" class="tab_item">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Full stack Development</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tb3" class="tab_item">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Security Consulting</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tb4" class="tab_item">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Network Optimization</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tb5" class="tab_item">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Data Management</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                    <div id="tb6" class="tab_item">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Backup Recovery & Protection</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordions">
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-2.svg" alt="img"> Full stack Development</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Full stack Development</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-1.svg" alt="img"> Installation & Maintenance</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Installation & Maintenance</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-4.svg" alt="img">Network Optimization</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Network Optimization</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-5.svg" alt="img"> Data Management</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Data Management</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-3.svg" alt="img">Security Consulting</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Security Consulting</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="accordion__panel">
+                    <button class="acc"><img src="images/do-6.svg" alt="img"> Backup Recovery & Protection</button>
+                    <div class="panell">
+                        <div class="tab-item__text">
+                            <h2 class="tab-item__h2">Backup Recovery & Protection</h2>
+                            <div class="tab-item__p">
+                                <p>We understand that every project is unique, so we provide individual solutions to ensure that our clients get the most out of their investment in software deve lopment. Our goal is to provide high quality and efficient software to help our clients improve the efficiency of their business processes and achieve their goals.</p>
+                            </div>
+                            <a href="#" class="btn__write tab-item__btn">
+                                <span class="icon"></span>
+                                write to us
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about">
+    <div class="container">
+        <div class="about__body">
+            <div class="about__body-text">
+                <h2 class="about__body-text__h2">About Serverhost</h2>
+                <div class="about__body-text__p">
+                    <p>Serverhost is a company that specializes in providing server solutions for businesses and organizations of all sizes.Serverhost is a company that specializes in providing server solutions for businesses and organizations of all sizes.</p>
+                </div>
+                <a href="#" class="about__body-text__btn">learn more</a>
+            </div>
+            <div class="about__body-textnumber">
+                <div class="about__body-card">
+                    <div class="about__body-card_p">
+                        <p>The average rating of our customers in recent years</p>
+                    </div>
+                    <h4 class="about__body-card__h4">4.8</h4>
+                </div>
+                <div class="about__body-card">
+                    <div class="about__body-card_p">
+                        <p>Regular customers that work with us:</p>
+                    </div>
+                    <h4 class="about__body-card__h4">227+</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="brand">
+    <div class="container">
+        <div class="brand__header">
+            <h2 class="brand__header-h2">We work with <span>all</span> leading manufacturers.</h2>
+            <div class="brand__header-p">
+                <p>We can sell and install equipment with all other manufacturers that are not on the site.</p>
+            </div>
+        </div>
+    </div>
+    <div class="brand__body">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/brand-1.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-2.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-3.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-4.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-1.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-2.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-3.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-4.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-1.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-2.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-3.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-4.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-1.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-2.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-3.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-4.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-1.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-2.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-3.png" alt="img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/brand-4.png" alt="img">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="contacts">
+    <div class="img__usb"><img src="images/usb.png" alt="img"></div>
+    <div class="container-con">
+        <div class="contacts__body">
+            <div class="contacts__body-text">
+                <h2 class="contacts__body-text__h2">Contacts</h2>
+                <div class="contacts__body-text__p">
+                    <p>For small offices, individuals, and those who need to quickly solve a suddenly arising problem with a computer.</p>
+                </div>
+                <div class="contacts__body-info">
+                    <ul>
+                        <li>
+                            <img src="images/local.svg" alt="img">
+                            <p>Avenue street, CA</p>
+                        </li>
+                        <li>
+                            <img src="images/phone.svg" alt="img">
+                            <p>1(818) 453-0000</p>
+                        </li>
+                        <li>
+                            <img src="images/mail.svg" alt="img">
+                            <p>hellothere@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts__body-img"><img src="images/usbm.png" alt="img"></div>
+            </div>
+            <div class="contacts__body-form">
+                <h2 class="contacts__body-form__peri">Get In Touch</h2>
+                <div class="empty">
+                    <p>Email field is empty</p>
+                    <img src="images/empty.svg" alt="img">
+                </div>
+                <form action="#">
+                    <div class="input-row">
+                        <input type="text" name="name" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Your email">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                        <div class="share">
+                            <img src="images/share.svg" alt="img">
+                            <p>We never share your email with anyone.</p>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span class="icon"></span> submit now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__body-row">
+                <div class="footer__body-logo">
+                    <a class="logo__link" href="#">
+                        <img src="images/logo_w.svg" alt="logo">
+                        <span>ServerHost</span>
+                    </a>
+                </div>
+                <div class="footer__body-menu">
+                    <ul>
+                        <li><a href="#">Server solutions</a></li>
+                        <li><a href="development.html">development</a></li>
+                        <li><a href="hardware.html">hardware</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__body-row2">
+                <div class="footer__body-all">
+                    <p>2023 Copywright. All rights reserved.</p>
+                </div>
+                <div class="footer__body-soc">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <div class="icon-container">
+                                    <div class="icon1"> </div>
+                                </div>
+                            </a>
+                            <a href="https://uk-ua.facebook.com/" target="_blank">
+                                <div class="icon-container">
+                                    <div class="icon2"> </div>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <div class="icon-container">
+                                    <div class="icon3"> </div>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <div class="icon-container">
+                                    <div class="icon4"> </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__body-info">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/mob-menu.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/tabs2.js"></script>
+<script src="js/preloader.js"></script>
+</body>
+</html>
