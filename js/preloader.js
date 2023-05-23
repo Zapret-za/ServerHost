@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
   var preloader = document.querySelector(".preloader");
   if (preloader) {
     preloader.style.display = "flex";
